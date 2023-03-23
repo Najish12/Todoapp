@@ -6,9 +6,7 @@ const TodoContext = createContext();
 export const TodoProvider =({children})=> {
     const [message, setMessage] = useState("");
     const navigate = useNavigate();
-    const[userData, setUserData] = useState({
-      name:""
-    });
+    const[userData, setUserData] = useState();
 
       const [taskList, setTaskList] = useState([]);
       const [latestTask, setLatestTask] = useState({})

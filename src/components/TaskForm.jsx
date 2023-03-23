@@ -47,7 +47,7 @@ function TaskForm(props) {
       },[data, isUpdate])
 
     return (
-        <div className='p-5 w-75'>
+        <div className='p-5'>
             <h2 className='text-white fw-bold'>{isUpdate? "Update Task" : "Create Task"}</h2>
             <div className='p-4 bg-white'>
              <form>
