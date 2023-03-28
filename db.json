@@ -35,40 +35,15 @@
       "email": "user2@gmail.com",
       "password": "admin",
       "id": 13
+    },
+    {
+      "name": "najish",
+      "email": "khannajish73@gmail.com",
+      "password": "najish2023",
+      "id": 14
     }
   ],
   "tasks": [
-    {
-      "title": "najis",
-      "userId": 9,
-      "description": "not working",
-      "duedate": "2023-03-18T11:15",
-      "id": 1
-    },
-    {
-      "title": "pay bill",
-      "userId": 9,
-      "modifiedOn": "Thu Mar 16 2023 11:28:54 GMT+0530 (India Standard Time)",
-      "description": "pay tommoow",
-      "duedate": "2023-04-01T11:28",
-      "id": 2
-    },
-    {
-      "title": "sd",
-      "userId": 9,
-      "modifiedOn": "Thu Mar 16 2023 12:40:23 GMT+0530 (India Standard Time)",
-      "description": "sd",
-      "duedate": "2023-03-08T12:40",
-      "id": 3
-    },
-    {
-      "title": "sd",
-      "userId": 9,
-      "modifiedOn": "Thu Mar 16 2023 12:45:39 GMT+0530 (India Standard Time)",
-      "description": "sdff",
-      "duedate": "2023-03-12T15:45",
-      "id": 4
-    },
     {
       "title": "sd",
       "userId": 9,
@@ -385,24 +360,6 @@
       "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
       "duedate": "2023-04-02T12:55",
       "id": 44
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 45
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 46
     }
   ]
 }

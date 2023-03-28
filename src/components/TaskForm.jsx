@@ -2,15 +2,21 @@ import React, { useContext, useEffect, useState } from 'react';
 import TodoContext from '../context/TodoContext';
 
 function TaskForm(props) {
+
     const init = {
         title:"",
         description:"",
-        dueDate:""
+        duedate:""
     }
-
     const [formData,setFormData] = useState(init);
-    const {userData, createTask, message, updateTask} = useContext(TodoContext);
-    const {data, isUpdate, cancelTask } = props;
+    const {userData, createTask, message, updateTask, setMessage} = useContext(TodoContext);
+
+    const {data, isUpdate, cancelTask, closeModal} = props;
+
+    const onUpdate =(e)=>{
+        e.preventDefault();
+        updateTask(formData);
+    }
 
     const handleChange =(event)=>{
         const {name,value} = event.target;
@@ -22,21 +28,9 @@ function TaskForm(props) {
         }))
       }
 
-
-      const onUpdate = (e)=>{
-        e.preventDefault();
-        updateTask(formData);
-      }
-
       const onSubmit=(e)=>{
         e.preventDefault();
         createTask(formData);
-      }
-
-      const onCancel = (e)=>{
-        e.preventDefault()
-        cancelTask();
-        setFormData(init);
       }
 
 
@@ -45,6 +39,17 @@ function TaskForm(props) {
             setFormData(data);
         }
       },[data, isUpdate])
+
+      useEffect(()=>{
+        setMessage("");
+      },[])
+
+      const onCancle =(e)=>{
+        e.preventDefault();
+          cancelTask();
+        closeModal();
+        setFormData(init);
+      }
 
     return (
         <div className='p-5'>
@@ -73,7 +78,7 @@ function TaskForm(props) {
                 :
                 <div className='p-2'>
                     <button className='btn btn-primary me-3' onClick={onUpdate}>Update Task</button>
-                    <button className='btn btn-warning'>Cancel</button>
+                    <button className='btn btn-warning' onClick={onCancle}>Cancel</button>
                 </div>
                 }
              </form>
