@@ -1,365 +1,136 @@
 {
-  "user": [
+  "users": [
     {
-      "name": "najis",
-      "email": "najis123@gmail.com",
-      "password": "poiuyt",
+      "username": "Vipin ",
+      "email": "vipin@gmail.com",
+      "password": "admin",
+      "id": 1
+    },
+    {
+      "username": "ishu",
+      "email": "ishu@gmail.com",
+      "password": "amdin",
+      "id": 2
+    },
+    {
+      "username": "ishu",
+      "email": "ishu@gmail.com",
+      "password": "amdin",
+      "id": 3
+    },
+    {
+      "username": "shubham",
+      "email": "shubham@gmail.com",
+      "password": "admin",
+      "id": 4
+    },
+    {
+      "username": "Vipin",
+      "email": "vipin12@gmail.com",
+      "password": "admin",
+      "id": 5
+    },
+    {
+      "username": "Ismail",
+      "email": "ismail@gmail.com",
+      "password": "admin",
+      "id": 6
+    },
+    {
+      "username": "vipin",
+      "email": "vipink29@gmail.com",
+      "password": "admin",
+      "id": 7
+    },
+    {
+      "username": "vipin",
+      "email": "vipink291@gmail.com",
+      "password": "admin",
       "id": 8
     },
     {
-      "name": "vipin",
-      "email": "vipin1@gmail.com",
+      "username": "Ajauy",
+      "email": "ajay@gmail.com",
       "password": "admin",
       "id": 9
     },
     {
-      "name": "ismail",
-      "email": "ismail12@gmail.com",
+      "username": "john",
+      "email": "john@gmail.com",
       "password": "admin",
       "id": 10
     },
     {
-      "name": "ismail",
-      "email": "ismail11@gmail.com",
+      "username": "kevin",
+      "email": "kevin@gmail.com",
       "password": "admin",
       "id": 11
     },
     {
-      "name": "user",
-      "email": "user1@gmai.com",
+      "username": "Shane",
+      "email": "shane@gmail.com",
       "password": "admin",
       "id": 12
     },
     {
-      "name": "user2",
-      "email": "user2@gmail.com",
+      "username": "kevin2",
+      "email": "kevin2@gmail.com",
       "password": "admin",
       "id": 13
     },
     {
-      "name": "najish",
-      "email": "khannajish73@gmail.com",
-      "password": "najish2023",
+      "username": "Simran",
+      "email": "simran@gmail.com",
+      "password": "admin",
       "id": 14
+    },
+    {
+      "username": "kevin",
+      "email": "kevin23424@gmail.com",
+      "password": "admin",
+      "id": 15
     }
   ],
   "tasks": [
     {
-      "title": "sd",
-      "userId": 9,
-      "modifiedOn": "Thu Mar 16 2023 12:45:39 GMT+0530 (India Standard Time)",
-      "description": "sdff",
-      "duedate": "2023-03-12T15:45",
+      "title": "Meeting",
+      "userId": 15,
+      "createdOn": "2023-04-17T06:47:26.059Z",
+      "description": "Meeting with client",
+      "dueDate": "2023-04-21T15:01",
+      "id": 1
+    },
+    {
+      "title": "Meeting with students",
+      "userId": 1,
+      "createdOn": "2023-04-17T06:47:26.059Z",
+      "description": "Meeting with students at Netmax Technologies.",
+      "dueDate": "2023-05-05T16:05",
+      "id": 3
+    },
+    {
+      "title": "Shopping",
+      "userId": 1,
+      "createdOn": "2023-04-17T06:47:26.059Z",
+      "description": "Go to the market for Grocery Shopping.",
+      "dueDate": "2023-05-19T16:05",
+      "id": 4
+    },
+    {
+      "title": "Meeting",
+      "userId": 1,
+      "createdOn": "2023-04-17T06:47:26.059Z",
+      "description": "Meeting with client",
+      "dueDate": "2023-05-19T16:05",
       "id": 5
     },
     {
-      "title": "sd",
-      "userId": 9,
-      "modifiedOn": "Thu Mar 16 2023 12:45:39 GMT+0530 (India Standard Time)",
-      "description": "sdff",
-      "duedate": "2023-03-12T15:45",
-      "id": 6
-    },
-    {
-      "title": "sd",
-      "userId": 9,
-      "modifiedOn": "Thu Mar 16 2023 12:45:39 GMT+0530 (India Standard Time)",
-      "description": "sdff",
-      "duedate": "2023-03-12T15:45",
+      "title": "Pay Bill ",
+      "userId": 1,
+      "createdOn": "2023-04-24T07:17:17.039Z",
+      "description": "Pay phone bill",
+      "dueDate": "2023-04-28T22:22",
       "id": 7
-    },
-    {
-      "title": "kd",
-      "userId": 9,
-      "modifiedOn": "Thu Mar 16 2023 12:46:35 GMT+0530 (India Standard Time)",
-      "description": "jkdf",
-      "duedate": "2023-03-25T16:46",
-      "id": 8
-    },
-    {
-      "title": "ss",
-      "userId": 9,
-      "modifiedOn": "Thu Mar 16 2023 12:48:35 GMT+0530 (India Standard Time)",
-      "description": "ss",
-      "duedate": "2023-03-26T15:48",
-      "id": 9
-    },
-    {
-      "title": "Meeting",
-      "userId": 9,
-      "modifiedOn": "Thu Mar 16 2023 12:50:41 GMT+0530 (India Standard Time)",
-      "description": "meeting 1",
-      "duedate": "2023-03-25T19:48",
-      "id": 10
-    },
-    {
-      "title": "Meeting",
-      "userId": 9,
-      "modifiedOn": "Thu Mar 16 2023 12:50:41 GMT+0530 (India Standard Time)",
-      "description": "meeting 1",
-      "duedate": "2023-03-25T19:48",
-      "id": 11
-    },
-    {
-      "title": "Meeting",
-      "userId": 9,
-      "modifiedOn": "Thu Mar 16 2023 12:50:41 GMT+0530 (India Standard Time)",
-      "description": "meeting 1",
-      "duedate": "2023-03-25T19:48",
-      "id": 12
-    },
-    {
-      "title": "Meeting",
-      "userId": 9,
-      "modifiedOn": "Thu Mar 16 2023 12:50:41 GMT+0530 (India Standard Time)",
-      "description": "meeting 1",
-      "duedate": "2023-03-25T19:48",
-      "id": 13
-    },
-    {
-      "title": "Meeting",
-      "userId": 9,
-      "modifiedOn": "Thu Mar 16 2023 12:50:41 GMT+0530 (India Standard Time)",
-      "description": "meeting 1",
-      "duedate": "2023-03-25T19:48",
-      "id": 14
-    },
-    {
-      "title": "Bill",
-      "userId": 9,
-      "modifiedOn": "16-03-2023",
-      "description": "Water Bill",
-      "duedate": "2023-03-24T12:54",
-      "id": 15
-    },
-    {
-      "title": "meeting",
-      "userId": 9,
-      "modifiedOn": "Fri Mar 17 2023 10:14:48 GMT+0530 (India Standard Time)",
-      "description": "meeting 3",
-      "duedate": "2023-03-18T13:14",
-      "id": 16
-    },
-    {
-      "title": "jf",
-      "userId": 9,
-      "modifiedOn": "Fri Mar 17 2023 10:36:35 GMT+0530 (India Standard Time)",
-      "description": "dk",
-      "duedate": "2023-03-14T10:36",
-      "id": 17
-    },
-    {
-      "title": "work",
-      "userId": 9,
-      "modifiedOn": "Fri Mar 17 2023 10:39:53 GMT+0530 (India Standard Time)",
-      "description": "done work",
-      "duedate": "2023-03-25T10:39",
-      "id": 18
-    },
-    {
-      "title": "work",
-      "userId": 9,
-      "modifiedOn": "Fri Mar 17 2023 10:39:53 GMT+0530 (India Standard Time)",
-      "description": "done work",
-      "duedate": "2023-03-25T10:39",
-      "id": 19
-    },
-    {
-      "id": 20
-    },
-    {
-      "id": 21
-    },
-    {
-      "id": 22
-    },
-    {
-      "title": "",
-      "description": "",
-      "duedate": "",
-      "id": 23
-    },
-    {
-      "title": "biilll",
-      "description": "payyy",
-      "duedate": "2023-03-24T12:02",
-      "userId": 9,
-      "modifiedOn": "Fri Mar 17 2023 12:02:47 GMT+0530 (India Standard Time)",
-      "id": 24
-    },
-    {
-      "title": "huhu",
-      "description": "jknjnj",
-      "duedate": "2023-03-31T12:03",
-      "userId": 9,
-      "modifiedOn": "Fri Mar 17 2023 12:03:32 GMT+0530 (India Standard Time)",
-      "id": 25
-    },
-    {
-      "title": "bill",
-      "description": "pay bil",
-      "duedate": "2023-04-02T10:21",
-      "userId": 9,
-      "modifiedOn": "Mon Mar 20 2023 10:21:01 GMT+0530 (India Standard Time)",
-      "id": 26
-    },
-    {
-      "title": "bill",
-      "description": "pay bilcdc",
-      "duedate": "2023-04-02T10:21",
-      "userId": 9,
-      "modifiedOn": "Mon Mar 20 2023 10:30:42 GMT+0530 (India Standard Time)",
-      "id": 27
-    },
-    {
-      "title": "",
-      "description": "",
-      "duedate": "",
-      "id": 28
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 29
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 30
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 31
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 32
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 33
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 34
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 35
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 36
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 37
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 38
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 39
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 40
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 41
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 42
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 43
-    },
-    {
-      "title": "meit",
-      "description": "dfsd",
-      "dueDate": "",
-      "userId": 6,
-      "modifiedOn": "Mon Mar 20 2023 12:55:39 GMT+0530 (India Standard Time)",
-      "duedate": "2023-04-02T12:55",
-      "id": 44
     }
   ]
 }
