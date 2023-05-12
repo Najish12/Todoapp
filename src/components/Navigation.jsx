@@ -1,16 +1,18 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useContext, useEffect, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import logo from '../assets/logo.png';
+import TodoContext from "../context/TodoContext";
 
 function Navigation(props) {
 
-  const [userData, setUserData] = useState()
+  const navigate = useNavigate();
+  const { userData, setUserData } = useContext(TodoContext);
 
-  useEffect(()=>{
-    const user = localStorage.getItem("user");
-    const userObj = JSON.parse(user);
-    setUserData(userObj);
-  },[])
+  const logout=()=>{
+    localStorage.removeItem("user");
+    setUserData(null);
+    navigate('/');
+  }
 
 
   return (
@@ -21,6 +23,9 @@ function Navigation(props) {
         <Link to="/"><img src={logo} alt="logo" /></Link>
             
           <ul className="nav col-12 col-lg-auto ms-lg-auto mb-2 justify-content-center mb-md-0">
+            {
+              !userData ? 
+              <>
             <li>
               <Link to="/" className="nav-link px-2 text-secondary">
                 Home
@@ -31,6 +36,9 @@ function Navigation(props) {
                 About
               </Link>
             </li>
+            </>
+              :
+              <>
             <li>
               <Link to="/task-list" className="nav-link px-2 text-white">
                 Task List
@@ -43,9 +51,12 @@ function Navigation(props) {
             </li>
             <li>
               <Link to="/profile" className="nav-link px-2 text-white">
-                {userData?.name}
+                {userData?.name}          
               </Link>
             </li>
+            <li className="nav-link text-white" onClick={logout}>Logout</li>
+            </>
+          }
           </ul>
         </div>
       </div>

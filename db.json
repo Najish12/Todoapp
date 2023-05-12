@@ -1,136 +1,112 @@
 {
-  "users": [
+  "user": [
     {
-      "username": "Vipin ",
+      "name": "Vipin",
       "email": "vipin@gmail.com",
       "password": "admin",
       "id": 1
     },
     {
-      "username": "ishu",
-      "email": "ishu@gmail.com",
-      "password": "amdin",
+      "name": "sanya",
+      "email": "sanya@gmail.com",
+      "password": "admin",
       "id": 2
     },
     {
-      "username": "ishu",
-      "email": "ishu@gmail.com",
-      "password": "amdin",
+      "name": "shubham",
+      "email": "shubham@gmail.com",
+      "password": "admin",
       "id": 3
     },
     {
-      "username": "shubham",
-      "email": "shubham@gmail.com",
-      "password": "admin",
+      "name": "favad",
+      "email": "favad@gmail.com",
+      "password": "favad@123",
       "id": 4
-    },
-    {
-      "username": "Vipin",
-      "email": "vipin12@gmail.com",
-      "password": "admin",
-      "id": 5
-    },
-    {
-      "username": "Ismail",
-      "email": "ismail@gmail.com",
-      "password": "admin",
-      "id": 6
-    },
-    {
-      "username": "vipin",
-      "email": "vipink29@gmail.com",
-      "password": "admin",
-      "id": 7
-    },
-    {
-      "username": "vipin",
-      "email": "vipink291@gmail.com",
-      "password": "admin",
-      "id": 8
-    },
-    {
-      "username": "Ajauy",
-      "email": "ajay@gmail.com",
-      "password": "admin",
-      "id": 9
-    },
-    {
-      "username": "john",
-      "email": "john@gmail.com",
-      "password": "admin",
-      "id": 10
-    },
-    {
-      "username": "kevin",
-      "email": "kevin@gmail.com",
-      "password": "admin",
-      "id": 11
-    },
-    {
-      "username": "Shane",
-      "email": "shane@gmail.com",
-      "password": "admin",
-      "id": 12
-    },
-    {
-      "username": "kevin2",
-      "email": "kevin2@gmail.com",
-      "password": "admin",
-      "id": 13
-    },
-    {
-      "username": "Simran",
-      "email": "simran@gmail.com",
-      "password": "admin",
-      "id": 14
-    },
-    {
-      "username": "kevin",
-      "email": "kevin23424@gmail.com",
-      "password": "admin",
-      "id": 15
     }
   ],
   "tasks": [
     {
-      "title": "Meeting",
-      "userId": 15,
-      "createdOn": "2023-04-17T06:47:26.059Z",
-      "description": "Meeting with client",
-      "dueDate": "2023-04-21T15:01",
-      "id": 1
-    },
-    {
-      "title": "Meeting with students",
+      "title": "Attend Meeting",
       "userId": 1,
-      "createdOn": "2023-04-17T06:47:26.059Z",
-      "description": "Meeting with students at Netmax Technologies.",
-      "dueDate": "2023-05-05T16:05",
-      "id": 3
-    },
-    {
-      "title": "Shopping",
-      "userId": 1,
-      "createdOn": "2023-04-17T06:47:26.059Z",
-      "description": "Go to the market for Grocery Shopping.",
-      "dueDate": "2023-05-19T16:05",
+      "modifiedOn": "Mon Mar 20 2023 10:31:08 GMT+0530 (India Standard Time)",
+      "description": "Attend Meeting at Taj",
+      "duedate": "2023-03-23T14:45",
       "id": 4
     },
     {
-      "title": "Meeting",
+      "title": "Meeting 1",
+      "description": "Another meeting",
+      "duedate": "2023-03-28T10:58",
       "userId": 1,
-      "createdOn": "2023-04-17T06:47:26.059Z",
-      "description": "Meeting with client",
-      "dueDate": "2023-05-19T16:05",
+      "modifiedOn": "Mon Mar 27 2023 10:52:41 GMT+0530 (India Standard Time)",
       "id": 5
     },
     {
-      "title": "Pay Bill ",
+      "title": "Meeting 2",
+      "description": "Another meeting 2",
+      "duedate": "2023-03-29T10:58",
       "userId": 1,
-      "createdOn": "2023-04-24T07:17:17.039Z",
-      "description": "Pay phone bill",
-      "dueDate": "2023-04-28T22:22",
+      "modifiedOn": "Mon Mar 27 2023 10:52:50 GMT+0530 (India Standard Time)",
+      "id": 6
+    },
+    {
+      "title": "Meeting 3",
+      "description": "Another meeting 3",
+      "duedate": "2023-03-30T10:58",
+      "userId": 1,
+      "modifiedOn": "Mon Mar 27 2023 10:52:57 GMT+0530 (India Standard Time)",
       "id": 7
+    },
+    {
+      "title": "Meeting 4",
+      "description": "Another meeting 4",
+      "duedate": "2023-03-31T10:58",
+      "userId": 1,
+      "modifiedOn": "Mon Mar 27 2023 10:53:06 GMT+0530 (India Standard Time)",
+      "id": 8
+    },
+    {
+      "title": "sdfghj",
+      "description": "df",
+      "duedate": "2023-06-02T20:01",
+      "modifiedOn": "Fri May 12 2023 15:01:16 GMT+0530 (India Standard Time)",
+      "id": 9
+    },
+    {
+      "title": "sdfghj",
+      "description": "df",
+      "duedate": "2023-06-02T20:01",
+      "modifiedOn": "Fri May 12 2023 15:01:16 GMT+0530 (India Standard Time)",
+      "id": 10
+    },
+    {
+      "title": "sdfghj",
+      "description": "dfhjj",
+      "duedate": "2023-06-02T20:01",
+      "modifiedOn": "Fri May 12 2023 15:01:23 GMT+0530 (India Standard Time)",
+      "id": 11
+    },
+    {
+      "title": "meeting",
+      "description": "meeeting with elan musk",
+      "duedate": "",
+      "modifiedOn": "Fri May 12 2023 15:01:58 GMT+0530 (India Standard Time)",
+      "id": 12
+    },
+    {
+      "title": "meeting",
+      "description": "meeeting with elan musk",
+      "duedate": "2023-06-01T19:08",
+      "modifiedOn": "Fri May 12 2023 15:02:09 GMT+0530 (India Standard Time)",
+      "id": 13
+    },
+    {
+      "title": "meeting ",
+      "description": "meeting with salman",
+      "duedate": "2023-06-09T20:03",
+      "modifiedOn": "Fri May 12 2023 15:03:37 GMT+0530 (India Standard Time)",
+      "id": 14
     }
   ]
 }
